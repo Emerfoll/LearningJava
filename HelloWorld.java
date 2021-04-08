@@ -32,7 +32,7 @@ public class HelloWorld {
     System.out.println(newString);
 
     // used to create a new string object.
-    String otherNewString = "This is how you make a string object.";
+    String otherNewString = new String("This is how you make a string object.");
     System.out.println(otherNewString);
 
   }
