@@ -1,8 +1,12 @@
 package LearningJava;
+
 public class HelloWorld {
   public static void main(String[] args) {
     System.out.println("Hello World!");
     System.out.println("Hey, it worked!");
+
+    // PRIMITIVE DATA TYPES:
+    // No built in behavior.
 
     // for characters
     char firstLetter = 'c';
@@ -16,14 +20,20 @@ public class HelloWorld {
     double price = 9.99;
     System.out.println(price);
 
-    // used to make a string.
-    String newString = "This is now you make a string";
-    System.out.println(newString);
-
     // boolean is used for true or false
     boolean likesBeer = true;
     System.out.println(likesBeer);
 
+    // OBJECTS: 
+    // Objects have built-in behavior.
+
+    // used to make a string literal.
+    String newString = "This is how you make a string literal.";
+    System.out.println(newString);
+
+    // used to create a new string object.
+    String otherNewString = "This is how you make a string object.";
+    System.out.println(otherNewString);
 
   }
 }
