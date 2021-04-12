@@ -15,6 +15,8 @@ public class HelloWorld {
     System.out.println(pi);
 
 
+    String weekendIsOver = "Lets get back to coding.";
+    System.out.print(weekendIsOver);
 
     // PRIMITIVE DATA TYPES:
     // No built in behavior.
