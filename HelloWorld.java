@@ -1,9 +1,17 @@
 package LearningJava;
 
 public class HelloWorld {
+
+  public HelloWorld() {
+    System.out.println("I am inside the constructor method.");
+    System.out.println("This will print if called inside the main");
+  }
   public static void main(String[] args) {
     System.out.println("Hello World!");
     System.out.println("Hey, it worked!");
+
+    HelloWorld message = new HelloWorld();
+    System.out.println("message: " + message);
 
     // define variables by declaring the data type and then a descriptive name for the variable.
     // final makes the variable unchangeable. ( const in JavaScript )
