@@ -5,7 +5,11 @@ public class HelloWorld {
   public HelloWorld() {
     System.out.println("I am inside the constructor method.");
     System.out.println("This will print if called inside the main");
+    System.out.println("Everything in 'HelloWorld' will run if called in main");
+    // System.out.println("Unless it is commented out");
+
   }
+
   public static void main(String[] args) {
     System.out.println("Hello World!");
     System.out.println("Hey, it worked!");
